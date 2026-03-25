@@ -2,7 +2,7 @@
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/mageme/module-webforms-3-klaviyo.svg)](https://packagist.org/packages/mageme/module-webforms-3-klaviyo)
 [![Packagist Downloads](https://img.shields.io/packagist/dt/mageme/module-webforms-3-klaviyo.svg)](https://packagist.org/packages/mageme/module-webforms-3-klaviyo)
-[![License](https://img.shields.io/packagist/l/mageme/module-webforms-3-klaviyo.svg)](https://mageme.com/license/)
+[![License: Proprietary](https://img.shields.io/badge/license-proprietary-blue.svg)](https://mageme.com/license/)
 
 Grow your Klaviyo email and SMS lists from Magento 2 forms. This free add-on for [MageMe WebForms](https://mageme.com/magento-2-form-builder.html) turns every form submission into a Klaviyo profile — complete with custom properties, list subscriptions, and consent tracking.
 
