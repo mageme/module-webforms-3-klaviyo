@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing>
+    <listingToolbar name="listing_top">
+        <massaction name="listing_massaction">
+            <action name="klaviyo"
+                    class="MageMe\WebFormsKlaviyo\Ui\Component\Result\Listing\MassActions\SubActions\Klaviyo">
+                <settings>
+                    <type>klaviyo</type>
+                    <label translate="true">Klaviyo</label>
+                </settings>
+            </action>
+        </massaction>
+    </listingToolbar>
+</listing>

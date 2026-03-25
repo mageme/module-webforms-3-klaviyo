@@ -1,0 +1,25 @@
+{
+    "name": "mageme/module-webforms-3-klaviyo",
+    "description": "Klaviyo integration add-on for WebForms Pro 3",
+    "type": "magento2-module",
+    "version": "3.1.3",
+    "license": "https://mageme.com/license/",
+    "homepage": "https://mageme.com",
+    "support": {
+        "issues": "https://github.com/mageme/module-webforms-3-klaviyo/issues",
+        "source": "https://github.com/mageme/module-webforms-3-klaviyo"
+    },
+    "require": {
+        "mageme/module-webforms-3": ">=3.5.0",
+        "ext-json": "*",
+        "ext-curl": "*"
+    },
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "MageMe\\WebFormsKlaviyo\\": ""
+        }
+    }
+}

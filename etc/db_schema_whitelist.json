@@ -1,0 +1,12 @@
+{
+    "mm_webforms_form": {
+        "column": {
+            "is_klaviyo_enabled": true,
+            "klaviyo_endpoint": true,
+            "klaviyo_event": true,
+            "klaviyo_email_field_id": true,
+            "klaviyo_lists_serialized": true,
+            "klaviyo_map_fields_serialized": true
+        }
+    }
+}
