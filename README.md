@@ -1,22 +1,29 @@
-# MageMe WebForms 3 — Klaviyo Integration
+# Magento 2 Klaviyo Integration — MageMe WebForms
 
-Free add-on for [MageMe WebForms for Magento 2](https://mageme.com/magento-2-form-builder.html) that integrates form submissions with Klaviyo.
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/mageme/module-webforms-3-klaviyo.svg)](https://packagist.org/packages/mageme/module-webforms-3-klaviyo)
+[![Packagist Downloads](https://img.shields.io/packagist/dt/mageme/module-webforms-3-klaviyo.svg)](https://packagist.org/packages/mageme/module-webforms-3-klaviyo)
+[![License](https://img.shields.io/packagist/l/mageme/module-webforms-3-klaviyo.svg)](https://mageme.com/license/)
+
+Grow your Klaviyo email and SMS lists from Magento 2 forms. This free add-on for [MageMe WebForms](https://mageme.com/magento-2-form-builder.html) turns every form submission into a Klaviyo profile — complete with custom properties, list subscriptions, and consent tracking.
 
 ## Features
 
-- Add form submissions as Klaviyo profiles
-- Subscribe profiles to Klaviyo lists
-- Map form fields to custom profile properties
+- Create or update Klaviyo profiles from form submissions (identified by email or phone)
+- Subscribe profiles to one or multiple Klaviyo lists per form
+- Track email and SMS consent automatically
+- Map form fields to custom profile properties for segmentation
+- Enrich profiles with location data (address, city, country, coordinates, timezone)
+- Multi-store support with per-store API token configuration
+- Resend submissions to Klaviyo manually from the Magento admin panel
 
 ## Requirements
 
 - Magento 2.4.x
 - [MageMe WebForms 3](https://mageme.com/magento-2-form-builder.html) version 3.5.0 or higher
 - PHP `curl` and `json` extensions
+- Klaviyo account with API access
 
 ## Installation
-
-### Via Composer
 
 ```
 composer require mageme/module-webforms-3-klaviyo
@@ -24,22 +31,28 @@ bin/magento setup:upgrade
 bin/magento cache:flush
 ```
 
-### Manual Installation
-
-1. Download and extract to `app/code/MageMe/WebFormsKlaviyo/`
-2. Run `bin/magento setup:upgrade`
-3. Run `bin/magento cache:flush`
-
 ## Configuration
 
-1. Navigate to **Stores > Configuration > MageMe > WebForms > Klaviyo** and enter your Klaviyo API key.
-2. Open a form in the admin panel and configure the Klaviyo integration tab to select the target list and map form fields to profile properties.
+1. Go to **Stores > Configuration > MageMe > WebForms > Klaviyo** and enter your Klaviyo API keys.
+2. Open any form in the admin panel and configure the Klaviyo integration tab — select target lists and map form fields to profile properties.
+
+## Other MageMe WebForms Integrations
+
+Build a connected Magento 2 storefront with more integrations:
+
+- [Mailchimp](https://github.com/mageme/module-webforms-3-mailchimp) — subscribe customers with interest groups
+- [HubSpot](https://github.com/mageme/module-webforms-3-hubspot) — sync contacts, companies, and tickets
+- [Salesforce](https://github.com/mageme/module-webforms-3-salesforce) — create leads from form submissions
+- [Zoho CRM & Desk](https://github.com/mageme/module-webforms-3-zoho) — create leads and support tickets
+- [Freshdesk](https://github.com/mageme/module-webforms-3-freshdesk) — create support tickets automatically
+- [Zendesk](https://github.com/mageme/module-webforms-3-zendesk) — create tickets with custom field types
+- [Zapier](https://github.com/mageme/module-webforms-3-zapier) — connect forms to 7000+ apps
 
 ## About MageMe WebForms
 
-[MageMe WebForms](https://mageme.com/magento-2-form-builder.html) is a powerful form builder for Magento 2 that allows you to create any type of form — contact forms, surveys, registration forms, order forms, and more — with a drag-and-drop interface, conditional logic, file uploads, and CRM integrations.
+[MageMe WebForms](https://mageme.com/magento-2-form-builder.html) is the go-to form builder for Magento 2 stores. Create contact forms, lead capture forms, surveys, and registration forms with conditional logic, multi-step layouts, file uploads, and direct CRM integrations — all from the admin panel.
 
-[Get MageMe WebForms](https://mageme.com/magento-2-form-builder.html)
+[Get MageMe WebForms for Magento 2](https://mageme.com/magento-2-form-builder.html)
 
 ## Support
 
