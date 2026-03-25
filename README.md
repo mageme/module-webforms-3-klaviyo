@@ -43,7 +43,7 @@ bin/magento cache:flush
 
 ## Support
 
-- Documentation: [mageme.com](https://mageme.com)
+- Documentation: [docs.mageme.com](https://docs.mageme.com)
 - Issue Tracker: [GitHub Issues](https://github.com/mageme/module-webforms-3-klaviyo/issues)
 
 ## License
